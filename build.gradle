@@ -12,20 +12,14 @@ buildscript {
 
 ext {
         scarabeiVersion = "1.4.0"
-        gdxVersion = '1.9.6'
-        ranaVersion = 'c2f57dab68'
 }
 
 allprojects {
-	repositories {
+    repositories {
 		mavenLocal()
 		mavenCentral()
 		maven { url 'https://jitpack.io' }
 		maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
 		maven { url "https://oss.sonatype.org/content/repositories/releases/" }
     }
-
-	
-	
-    
 }
