@@ -5,6 +5,6 @@ import com.jfixby.scarabei.api.assets.ID;
 
 public interface UnitOperatorComponent {
 
-	void deployUnit (ID unitID);
+	UnitHandler deployUnit (ID unitID);
 
 }

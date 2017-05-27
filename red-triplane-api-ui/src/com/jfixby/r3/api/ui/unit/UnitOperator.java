@@ -25,8 +25,8 @@ public class UnitOperator {
 		return componentInstaller.getComponent();
 	}
 
-	public static void deployUnit (final ID unitID) {
-		invoke().deployUnit(unitID);
+	public static UnitHandler deployUnit (final ID unitID) {
+		return invoke().deployUnit(unitID);
 	}
 
 }
